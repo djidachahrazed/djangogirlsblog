@@ -7,6 +7,8 @@
 <h1><a href="/">Django Girls Blog</a></h1>
 </div>
 <div>
+<h1><a href="/">Django Girls Blog</a></h1>
+</div>
 {% for post in posts %}
 <div>
 <p>published: {{ post.published_date }}</p>
@@ -14,7 +16,5 @@
 <p>{{ post.text|linebreaksbr }}</p>
 </div>
 {% endfor %}
-</body>
-</html>
 </body>
 </html>
